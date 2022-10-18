@@ -67,10 +67,11 @@ input[type="email"], input[type="password"] {
 input[type="submit"] {
     width: 30%;
     align-self: center;
-    margin: 4px;
+    margin-top: 10px;
+    
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .right-part {
         display: none;
     }
@@ -87,4 +88,23 @@ input[type="submit"] {
     input[type="submit"] {
         margin-top: 20px;
     }
+}
+
+@media screen and (max-height: 500px) {
+    .right-part {
+        display: none;
+    }
+
+    .left-part {
+        width: 100%;
+    }
+
+    form {
+        font-size: 16px;
+        gap: 2px;
+    }
+
+    input[type="submit"] {
+        margin-top: 20px;
+    } 
 }
